@@ -1,4 +1,8 @@
-﻿$inp = Get-Content .\input.txt
+﻿<#
+    I fully acknowledge that this is probably inefficient but it works.
+#>
+
+$inp = Get-Content .\input.txt
 
 class Lock {
     [int[]]$dial = @()
